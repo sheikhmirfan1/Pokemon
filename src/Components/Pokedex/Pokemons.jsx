@@ -8,7 +8,7 @@ const Pokemons = ({pokemons}) => {
         <div style={{display : 'flex', flexWrap:'wrap'}}>
             {pokemons.map (pokemon => {
 
-                return <PokemonCard key={pokemon.name} {...pokemon}/>
+                return <PokemonCard key={ pokemon.name} {...pokemon}/>
             })}
             </div>
         

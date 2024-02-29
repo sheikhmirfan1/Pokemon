@@ -1,12 +1,10 @@
-import axios from "axios"
-import { useState, useEffect } from'react'
+import axios from 'axios'
+import { useState, useEffect } from 'react'
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
-
-
 
 
 const PokemonCard = ({ name, url }) => {
@@ -38,7 +36,7 @@ const PokemonCard = ({ name, url }) => {
 
     return (
         <div style={{padding : '1%'}}>
-            <Card>
+            <Card  sx={{ maxWidth: 250, maxHeight: 330, minHeight: 330 }}>
                 <CardActionArea>
                     <CardMedia
                         sx={{minHeight: 220}}
