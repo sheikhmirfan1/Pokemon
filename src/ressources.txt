@@ -1,0 +1,2 @@
+API URL = https://pokeapi.co/api/v2/pokemon/?limit=151
+MUI DOC = https://mui.com/material-ui/getting-started/installation/
